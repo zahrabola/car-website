@@ -85,7 +85,7 @@ border-radius: 3px
   align-items: center;
   margin-left: 60px;
 }
-.postnewcar, .btn{
+.postnewcar{
 padding: 10px;
   background-color: #c59e47;
   color: white;
@@ -93,4 +93,25 @@ padding: 10px;
 .d-block{
   background-color: #191919;
 max-height: 800px;
+}
+.seachbar-container{
+  top: -30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: #c59e47;
+}
+.search-toggle{
+color: #e7e7e7
+}
+ .search-toggle:hover{
+text-decoration: none;
+color: #fff;
+ }
+ .searchbtn{
+     padding-right: 10px;
+  color: #fff;
+  text-decoration: none;
+ }
+.searchbtn:hover {
+  color: white;
 }
