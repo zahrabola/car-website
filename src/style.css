@@ -164,7 +164,7 @@ color: #fff;
 /* latest car */
 .texthover>img{
 	width:100%;
-  height:290px;
+  height:300px;
 
 }
 .texthover:hover .textcontent{
@@ -294,3 +294,59 @@ color: #fff;
   background: #1fbae7;
   color:#fff;
 }
+ .portfolio-gallery{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .portfolio-gallery .item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 5px;
+  
+}
+.portfolio-gallery {
+    position: relative;
+}
+.portfolio-gallery  img{
+    width: 100%;
+    display: block;
+}
+ 
+@media(max-width:767px){
+ 
+.portfolio-gallery {
+        flex:0 0 50% ;
+        max-width: 50%;
+        position: relative;
+        padding:5px ;
+    }
+ 
+}
+@media(max-width:500px){
+ 
+     .portfolio-gallery {
+        flex:0 0 100% ;
+        max-width: 100%; }
+}
+.filter-buttons{
+   list-style-type: none;
+   display: inline;
+   word-spacing: 25px;
+}
+.filter-link{
+  text-decoration: none;
+  color: #000;
+}
+.filter-link:hover{
+  cursor: pointer;
+   text-decoration: underline ;
+    text-decoration-color:#c59e47;
+    padding: 10px;
+    color: #000;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+ 

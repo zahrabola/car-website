@@ -314,24 +314,30 @@ Max
 <!-------------Latest car ------------>
    <div class="container latest-section">
       <div class="section1">
-       <h1 class="text-center"><span class="bdots">•</span>L A T E S T <span class="carstxt">C A R S</span>•</h1>
-     
-     
-<div id="LatestcarContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('classic')">Classic</button>
-  <button class="btn" onclick="filterSelection('sportcar')"> Sports Cars</button>
-  <button class="btn" onclick="filterSelection(' suv')"> SUV </button>
-</div>
-     
        
+       
+        <h1 class="text-center"><span class="bdots">•</span>L A T E S T <span class="carstxt">C A R S</span>•</h1>
+      <div class="filter-buttons">
+      
 
+                    <ul id="filter-btns">
+                        <li class="filter-buttons filter-link" data-target="all">All</li>
+                        <li class="filter-buttons filter-link" data-target="classic">CLASSIC</li>
+                        <li class="filter-buttons filter-link"  data-target="sportcar">SPORTSCAR</li>
+                        <li class="filter-buttons filter-link"  data-target="suv">SUV</li>
+                    </ul>
 
+                </div>
+              
      
   </div>
    <div class="grid" style="position: relative; height: 1336.17px;">
+ 
    <div class="row">
-     <div class="col-lg-4 column classic ">
+
+
+         <div class="portfolio-gallery item">
+     <div class="col-lg-4 column " data-id="classic">
        <div class="texthover">
          <img src="https://images.pexels.com/photos/5804273/pexels-photo-5804273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -355,7 +361,7 @@ Max
 						</div>
         </div>
      </div>
-       <div class="col-lg-4 column  classic">
+       <div class="col-lg-4 column"  data-id="classic">
           <div class="texthover">
          <img src="https://images.pexels.com/photos/163597/oldtimer-automobile-renault-caravelle-163597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -379,7 +385,7 @@ Max
 						</div>
         </div>
      </div>   
-      <div class="col-lg-4 column classic">
+      <div class="col-lg-4 column"  data-id="classic">
   <div class="texthover">
          <img src="https://images.pexels.com/photos/248687/pexels-photo-248687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -404,7 +410,7 @@ Max
         </div>
      </div> 
           <!--row 2-->
-        <div class="col-lg-4 column sportcar ">
+        <div class="col-lg-4 column"  data-id="sportcar">
   <div class="texthover">
          <img src="https://images.pexels.com/photos/9452137/pexels-photo-9452137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -429,7 +435,7 @@ Max
         </div>
      </div>
 
-       <div class="col-lg-4 column sportcar  ">
+       <div class="col-lg-4 column"  data-id="sportcar">
       <div class="texthover">
          <img src="https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -453,7 +459,7 @@ Max
 						</div>
         </div>
      </div>
-         <div class="col-lg-4 column sportcar">
+         <div class="col-lg-4 column"  data-id="sportcar">
         <div class="texthover">
          <img src="https://images.pexels.com/photos/6462662/pexels-photo-6462662.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -478,7 +484,7 @@ Max
         </div>
      </div>   
         <!--row 3-->
-      <div class="col-lg-4 column suv ">
+      <div class="col-lg-4 column"  data-id="suv">
    <div class="texthover">
          <img src="https://images.pexels.com/photos/4639907/pexels-photo-4639907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -502,7 +508,7 @@ Max
 						</div>
         </div>
      </div>  
-       <div class="col-lg-4 column suv  ">
+       <div class="col-lg-4 column "  data-id="suv">
           <div class="texthover">
          <img src="https://images.pexels.com/photos/1592261/pexels-photo-1592261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -526,7 +532,7 @@ Max
 						</div>
         </div>
      </div>
-     <div class="col-lg-4 column suv ">
+     <div class="col-lg-4 column"  data-id="suv">
       <div class="texthover">
          <img src="https://images.pexels.com/photos/11396006/pexels-photo-11396006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid car-img rounded-start" style="width:100%">
        <div class="textcontent">
@@ -551,10 +557,12 @@ Max
         </div>
      </div>
       </div>
+      </div>
    </div>
    </div>
    </div>
-    
-  </body>
+   </div>
+   <!----------------->
+
   <script src="src/myIndex.js"></script>
 </html>
