@@ -28,3 +28,4 @@ function myFunction2() {
     moreText.style.display = "inline";
   }
 }
+

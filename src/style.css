@@ -164,6 +164,7 @@ color: #fff;
 /* latest car */
 .texthover>img{
 	width:100%;
+  height:290px;
 
 }
 .texthover:hover .textcontent{
@@ -185,12 +186,11 @@ color: #fff;
 .car-img {
   padding: 5px;
   margin: 5px;
-width: 400px;
-  height: 400px;
+
 }
  .stars{
  	font-size: 7px;
-	padding-top: 57px;
+	padding-top: 17px;
 	padding-bottom: 12px;
 	text-align: center;
 	border-bottom: 2px solid #F6F6FB;
@@ -264,4 +264,33 @@ width: 400px;
 	font-size: 11.32px;
 	color: #fff;
 	float: right;
+}
+#filters {
+	margin: 1%;
+	padding: 0;
+	list-style: none;
+  overflow: hidden;
+}
+
+#filters li {
+  float: left;
+}
+
+#filters li span {
+  display: block;
+  padding: 5px 20px;		
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.25s;
+}
+
+#filters li:hover span {
+  color: #000;
+}
+
+#filters li span.active {
+  background: #1fbae7;
+  color:#fff;
 }
