@@ -115,3 +115,49 @@ color: #fff;
 .searchbtn:hover {
   color: white;
 }
+.section1>h1{
+    font-family: "OpenSans-Light";
+    font-size: 35px;
+    padding-top: 46px;
+    padding-bottom: 50px;
+    font-weight: lighter;
+    color: #020243;
+    letter-spacing: 2px;
+}
+.carstxt {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.feature-content{
+      width: 95%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.card-feature{
+  border: 2px solid #C59E47;
+  
+}
+.img-section {
+ width: 100%;
+ max-height: fit-content;
+ height: 350px;
+border: 0;
+}
+ .feature-content{
+   margin-bottom: 10px;
+ }
+ .card-text{
+   font-size: 12px;
+ }
+  #myBtn,  #myBtn2{
+background-color: #020243;
+padding: 3px;
+color: #fff;
+  }
+  .section1-row{
+    margin-bottom: 10px;
+    
+  }
