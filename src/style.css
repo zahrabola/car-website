@@ -523,3 +523,23 @@ left: 0%;
 		letter-spacing: 3px;
 	}
 }
+.bottommenu,.nav-link{
+  color: black;
+  
+}
+.nav-link{
+padding-bottom: 40px;
+padding-top: 20px;
+}
+
+.nav-link:hover{
+  color: #000;
+  text-decoration: underline #C59E47;
+  border: none;
+
+}
+.Footer{
+   background-color: #191919;
+  padding: 5px;
+  border: none;
+}
