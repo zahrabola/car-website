@@ -427,50 +427,13 @@ color: #fff;
 	padding: 0px;
 	z-index: 99;
 }
-#subemail:focus{
-	border-bottom: 1px solid #C7D7E5;
-	 box-shadow: inset 0 0px;
 
-	}
-
-
-.rightside>button{
-	position: absolute;
-	top:45%;
-	left:25%;
-	z-index: 99;
-	background: none;
-	border: 1px solid #fff;
-	font-family: "OpenSans-Light";
-	font-size: 25px;
-	color: #fff;
-	letter-spacing: 11px;
-	padding-left: 26px;
-	padding-right: 26px;
-	width: 55%;
-	height: 12%;
-}
- .rightside>button:hover{
- 	background:#fff;
- 	color: #000;
- 	-moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    transition: all .2s ease-in;
-
- }
 
  @media screen and (max-width: 676px){
 .newslettercontent{
 	margin-bottom: 90%;
 }
-.rightside>button{
-	left:0%;
-	top:48%;
-	font-size: 31.5px;
-	margin-left: 10%;
-	width: 80%;
-}
+
  .leftside>img{
  		transform:rotate(90deg);
  		width: 100%;
@@ -525,11 +488,13 @@ left: 0%;
 }
 .bottommenu,.nav-link{
   color: black;
-  
+  padding: 10px;
 }
-.nav-link{
-padding-bottom: 40px;
-padding-top: 20px;
+
+
+
+.nav-item{
+padding-right: 30px;
 }
 
 .nav-link:hover{
