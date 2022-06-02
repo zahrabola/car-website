@@ -29,6 +29,7 @@ function myFunction2() {
   }
 }
 
+/*-------------------------*/
   
 const filterButtons = document.querySelector("#filter-btns").children;
 const items = document.querySelector(".portfolio-gallery").children;
